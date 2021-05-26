@@ -6,7 +6,7 @@
 source "https://rubygems.org"
 gemspec
 
-s_version = "~> 4.0"
+s_version = "~> 3.7"
 j_version = "~> 4.0"
 gem "sprockets", ENV["SPROCKETS_VERSION"] || s_version, require: false
 if ENV["JEKYLL_VERSION"]
